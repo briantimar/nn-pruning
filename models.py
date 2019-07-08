@@ -1,7 +1,7 @@
 import torch
 import numpy as numpy
 
-def lenet300(torch.nn.Module):
+class lenet300(torch.nn.Module):
 
     def __init__(self):
         self.hidden1 = torch.nn.Linear(300)
